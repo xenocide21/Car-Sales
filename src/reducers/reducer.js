@@ -46,8 +46,8 @@ const reducer = (state = initialState, action) => {
                 store: [...state.store, action.payload]
 
             }
-        default: return state;
+        default: return state
     }
 }
 
-export default reducer;
+export default reducer
